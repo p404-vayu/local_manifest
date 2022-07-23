@@ -22,7 +22,7 @@
         <remove-project name="android_packages_apps_Settings" />
         <remove-project name="android_frameworks_av" />
         <remove-project name="android_system_core" />
-        <remove-project name="android_packages_apps_ThemePicker" />
+        <!-- <remove-project name="android_packages_apps_ThemePicker" /> -->
         <remove-project name="android_system_sepolicy" />
         
         <!-- replacements -->
@@ -31,10 +31,10 @@
         <project path="packages/apps/Launcher3" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="shinka" />
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="shinka" />
         <project path="frameworks/base" name="android_frameworks_base" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="test" />
+        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="shinka" />
         <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="shinka" />
         <project path="system/core" name="android_system_core" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cl-404lab" revision="shinka" />
+      <!--  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cl-404lab" revision="shinka" /> -->
         <project path="system/sepolicy" name="android_system_sepolicy" remote="cl-404lab" revision="shinka" />
         
         <!-- gcam go repo -->
