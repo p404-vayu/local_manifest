@@ -24,6 +24,8 @@
         <remove-project name="android_system_core" />
         <!-- <remove-project name="android_packages_apps_ThemePicker" /> -->
         <remove-project name="android_system_sepolicy" />
+        <remove-project name="android_device_404_sepolicy" />
+        
         
         <!-- replacements -->
         <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cl-404lab" revision="shinka" />
@@ -31,11 +33,12 @@
         <project path="packages/apps/Launcher3" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="shinka" />
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="shinka" />
         <project path="frameworks/base" name="android_frameworks_base" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="shinka" />
+        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="wip" />
         <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="shinka" />
         <project path="system/core" name="android_system_core" remote="cl-404lab" revision="shinka" />
       <!--  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cl-404lab" revision="shinka" /> -->
         <project path="system/sepolicy" name="android_system_sepolicy" remote="cl-404lab" revision="shinka" />
+        <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="shinka" />
         
         <!-- gcam go repo -->
         <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="cl-404lab" revision="arrow-12.1" />
