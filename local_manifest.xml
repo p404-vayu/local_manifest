@@ -52,4 +52,7 @@
         <!-- misc -->
         <project path="vendor/support" name="android_vendor_support" remote="cl-404lab" revision="12.1" />
         
+        <!-- external repos -->
+        <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="cl-404lab" revision="lineage-19.1" />
+        
 </manifest>
