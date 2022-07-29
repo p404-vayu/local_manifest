@@ -25,7 +25,7 @@
         <remove-project name="android_packages_apps_ThemePicker" />
         <remove-project name="android_system_sepolicy" />
         <remove-project name="android_device_404_sepolicy" />
-        
+        <remove-project name="android_packages_apps_Updater" />
         
         <!-- replacements -->
         <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cl-404lab" revision="shinka" />
@@ -39,6 +39,7 @@
         <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cl-404lab" revision="shinka" />
         <project path="system/sepolicy" name="android_system_sepolicy" remote="cl-404lab" revision="shinka" />
         <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="shinka" />
+        <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cl-404lab" revision="shinka" />
         
         <!-- gcam go repo -->
         <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="cl-404lab" revision="arrow-12.1" />
