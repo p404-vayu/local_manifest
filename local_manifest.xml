@@ -56,4 +56,7 @@
         <!-- external repos -->
         <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="github" revision="lineage-19.1" />
         
+        <!-- packages repos -->
+        <project path="packages/apps/MatlogX" name="android_packages_apps_MatlogX" remote="cl-404lab" revision="shinka" />
+        
 </manifest>
