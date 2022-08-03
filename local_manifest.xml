@@ -44,8 +44,8 @@
         <!-- gcam go repo -->
         <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="cl-404lab" revision="arrow-12.1" />
         
-        <!-- gcam -->
-        <project path="vendor/Gcam" name="vendor_Gcam" remote="cl-404lab" revision="shinka" />
+        <!-- gcam 
+        <project path="vendor/Gcam" name="vendor_Gcam" remote="cl-404lab" revision="shinka" /> -->
         
         <!-- device settings -->
         <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="github" revision="arrow-12.0" />
