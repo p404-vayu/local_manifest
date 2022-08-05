@@ -58,5 +58,7 @@
         
         <!-- packages repos -->
         <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="github" revision="12.1" />
+        <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+        
         
 </manifest>
