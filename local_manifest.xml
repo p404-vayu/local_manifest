@@ -26,6 +26,7 @@
         <remove-project name="android_system_sepolicy" />
         <remove-project name="android_device_404_sepolicy" />
         <remove-project name="android_packages_apps_Updater" />
+        <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
         
         <!-- replacements -->
         <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cl-404lab" revision="shinka" />
@@ -40,7 +41,8 @@
         <project path="system/sepolicy" name="android_system_sepolicy" remote="cl-404lab" revision="shinka" />
         <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="shinka" />
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cl-404lab" revision="shinka" />
-        
+        <project path="vendor/qcom-opensource/commonsys/packages/apps/Bluetooth" name="P-404/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="github" revision="shinka" />
+
         <!-- gcam 
         <project path="vendor/Gcam" name="vendor_Gcam" remote="cl-404lab" revision="shinka" /> -->
         
@@ -57,6 +59,8 @@
         <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="github" revision="12.1" />
         <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
         <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
-
+        
+        
+        
         
 </manifest>
