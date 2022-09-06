@@ -17,10 +17,7 @@
       
         <!-- misc -->
         <project path="vendor/support" name="android_vendor_support" remote="cl-404lab" revision="12.1" />
-        
-        <!-- external repos -->
-        <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="github" revision="lineage-19.1" />
-        
+
         <!-- packages repos -->
         <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="github" revision="12.1" />
         <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
