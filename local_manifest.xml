@@ -4,43 +4,11 @@
         <remote name="cl-404lab" fetch="https://github.com/p404-vayu" />
       
         <!-- Trees -->
-        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="shinka" remote="cl-404lab" />	
+        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="tokui" remote="cl-404lab" />	
         <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="shinka" remote="cl-404lab" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="shinka" remote="cl-404lab" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="shinka" remote="cl-404lab" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
 
-        <!-- Hals -->
-        <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        
-        <!-- nukes -->
-        <remove-project name="android_device_qcom_sepolicy_vndr" />
-        <remove-project name="android_vendor_404" />
-        <remove-project name="android_packages_apps_404Launcher" />
-        <remove-project name="android_frameworks_base" />
-        <remove-project name="android_packages_apps_Settings" />
-        <remove-project name="android_frameworks_av" />
-        <remove-project name="android_system_core" />
-        <remove-project name="android_packages_apps_ThemePicker" />
-        <remove-project name="android_system_sepolicy" />
-        <remove-project name="android_device_404_sepolicy" />
-        <remove-project name="android_packages_apps_Updater" />
-        
-        <!-- replacements -->
-        <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cl-404lab" revision="shinka" />
-        <project path="vendor/404" name="android_vendor_404" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/Launcher3" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="shinka" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="wip" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="shinka" />
-        <project path="system/core" name="android_system_core" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cl-404lab" revision="shinka" />
-        <project path="system/sepolicy" name="android_system_sepolicy" remote="cl-404lab" revision="shinka" />
-        <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="shinka" />
-        <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cl-404lab" revision="shinka" />
-        
         <!-- gcam 
         <project path="vendor/Gcam" name="vendor_Gcam" remote="cl-404lab" revision="shinka" /> -->
         
