@@ -5,7 +5,7 @@
       
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="shinka" remote="cl-404lab" />	
-        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="shinka" remote="cl-404lab" />
+        <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu" revision="arrow-13.0" remote="github" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="shinka" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="shinka" remote="cl-404lab" />
 
@@ -13,6 +13,8 @@
         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="sapphire-855" />
+        
         
         <!-- nukes -->
         <remove-project name="android_device_qcom_sepolicy_vndr" />
