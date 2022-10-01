@@ -20,7 +20,6 @@
 
         <!-- packages repos -->
         <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="github" revision="12.1" />
-        <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
         <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
         
         
