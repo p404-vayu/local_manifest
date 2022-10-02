@@ -32,7 +32,7 @@
         <!-- Extras  
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>-->
 
-        <remove name="platform/vendor/qcom-opensource/fm-commonsys" />
+        <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
         <project path="vendor/qcom/opensource/commonsys/fm" name="P-404/android_vendor_qcom-opensource_fm-commonsys" remote="github" revision="tokui" />
         
 </manifest>
