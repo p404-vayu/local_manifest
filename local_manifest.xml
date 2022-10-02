@@ -5,7 +5,7 @@
       
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="tokui" remote="cl-404lab" />	
-        <project path="kernel/xiaomi/vayu" name="Jebaitedneko/android_kernel_xiaomi_vayu" revision="r2" remote="github" />
+        <project path="kernel/xiaomi/vayu" name="raghavt20/kernel_sm8150" revision="sapphire" remote="github" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="shinka" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
 
@@ -29,6 +29,6 @@
         <remove-project name="android_packages_apps_404Launcher" />
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
         
-         <!-- Extras --> 
-         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
+        <!-- Extras --> 
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
 </manifest>
