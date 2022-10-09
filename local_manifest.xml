@@ -38,9 +38,11 @@
         <remove-project name="android_packages_apps_Settings" />
         <remove-project name="android_build" />
         <remove-project name="android_vendor_404" />
-        <!--<remove-project name="platform/vendor/nxp/opensource/halimpl" />-->
+        <remove-project name="platform/vendor/nxp/opensource/halimpl" />
         <remove-project name="android_packages_apps_ThemePicker" />
         <remove-project name="android_device_qcom_common" />
+        <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+        
         
         <!-- replacements -->
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
