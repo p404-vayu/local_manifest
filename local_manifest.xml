@@ -5,7 +5,7 @@
       
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="tokui" remote="cl-404lab" />	
-        <project path="kernel/xiaomi/vayu" name="raghavt20/kernel_sm8150" revision="topaz" remote="github" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
 
