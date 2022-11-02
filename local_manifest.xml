@@ -31,8 +31,9 @@
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
         
         <!-- Extras  
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>-->
+        <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace" remote="github" revision="13" />
         
+
         <!-- nukes -->
         <remove-project name="android_packages_apps_404Launcher" />
         <remove-project name="android_frameworks_base" />
