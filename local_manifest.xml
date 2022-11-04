@@ -30,7 +30,7 @@
         <remove-project name="android_packages_apps_404Launcher" />
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
         
-        <!-- Extras  
+        <!-- Extras  -->
         <project path="packages/apps/GameSpace" name="chaldeaprjkt/packages_apps_GameSpace" remote="github" revision="13" />
         
 
