@@ -69,7 +69,7 @@
         -->
         <project path="vendor/overlays/404" name="android_vendor_overlays_404" remote="cl-404lab" revision="tokui" />
         <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="tokui" />
-        <project path="build/soong" name="android_build_soong" remote="cl-404lab">
+        <project path="build/soong" name="android_build_soong" remote="cl-404lab" revision="tokui" >
                 <linkfile src="root.bp" dest="Android.bp" />
                 <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
         </project>
