@@ -46,6 +46,7 @@
         <!--<remove-project name="android_system_core" />-->
         <remove-project name="android_vendor_overlays_404" />
         <remove-project name="android_frameworks_av" />
+        <remove-project name="android_build_soong" />
         
         
         <!-- replacements -->
@@ -68,7 +69,11 @@
         -->
         <project path="vendor/overlays/404" name="android_vendor_overlays_404" remote="cl-404lab" revision="tokui" />
         <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="tokui" />
-         
+        <project path="build/soong" name="android_build_soong" remote="cl-404lab">
+                <linkfile src="root.bp" dest="Android.bp" />
+                <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+        </project>
+        
         <!-- Clang-->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 </manifest>
