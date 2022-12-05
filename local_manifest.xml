@@ -22,7 +22,7 @@
         <!-- Hals -->
         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="topaz-855" />
         <project path="hardware/qcom/qps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-855" />
 
         <!-- nukes -->
