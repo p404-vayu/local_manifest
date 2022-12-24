@@ -48,6 +48,7 @@
         <remove-project name="android_frameworks_av" />
         <remove-project name="android_build_soong" />
         <remove-project name="android_device_404_sepolicy" />
+        <remove-project name="platform/packages/modules/Permission" />
         
         <!-- replacements -->
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
@@ -74,6 +75,7 @@
                 <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
         </project>
        <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="tokui" />
+       <project path="packages/modules/Permission" name="P-404/android_packages_modules_Permission" remote="github" revision="tokui" />
         
         <!-- Clang-->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
