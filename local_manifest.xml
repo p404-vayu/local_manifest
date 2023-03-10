@@ -63,6 +63,7 @@
         </project>
         <!--<project path="packages/modules/Permission" name="P-404/android_packages_modules_Permission" remote="github" revision="tokui" />
         -->
-        <!-- Clang-->
+        <!-- Clang
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
+-->
 </manifest>
