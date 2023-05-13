@@ -25,7 +25,10 @@
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-855" />
 
-
+        <!-- replacements -->
+        <remove-project name="android_bootable_recovery" />
+        <project path="bootable/recovery" name="android_bootable_recovery" remote="cl-404lab" revision="tokui" />
+        
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 </manifest>
