@@ -37,6 +37,7 @@
         <remove-project name="android_device_404_sepolicy" />
         <remove-project name="android_vendor_overlays_404" />
         <remove-project name="android_device_qcom_common" />
+        <remove-project name="android_vendor_qcom_opensource_data" />
         
         
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="tokui" />
@@ -70,7 +71,9 @@
         </project>
         <remove-project name="proprietary_vendor_qcom_common" />
         <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="cl-404lab" revision="tokui" />
-        
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cl-404lab" revision="topaz">
+          <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+        </project>
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 </manifest>
