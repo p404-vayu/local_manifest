@@ -37,7 +37,7 @@
         <remove-project name="android_device_404_sepolicy" />
         <remove-project name="android_vendor_overlays_404" />
         <remove-project name="android_device_qcom_common" />
-        <remove-project name="android_vendor_qcom_opensource_data" />
+        <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
         
         
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="tokui" />
