@@ -66,7 +66,7 @@
         <project path="external/wpa_supplicant_8" name="wpa" remote="cl-404lab" revision="tokui" />
         <remove-project name="proprietary_vendor_qcom_common" />
         <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="cl-404lab" revision="tokui" />
-        <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cl-404lab" revision="tokui" />
+        <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="github" revision="topaz" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
