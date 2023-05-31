@@ -11,8 +11,8 @@
         <project path="kernel/xiaomi/vayu" name="raghavt20/kernel_sm8150" revision="topaz-new" remote="github" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
-        <!--<project path="vendor/xiaomi/miuicam" name="vendor_miuicam" revision="master" remote="haroxd10" />-->
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="micam-gitlab" revision="13.0-miuicamera" />
+        <!--<project path="vendor/xiaomi/miuicam" name="vendor_miuicam" revision="master" remote="haroxd10" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="micam-gitlab" revision="13.0-miuicamera" /> -->
 
         <remove-project name="platform/vendor/nxp/opensource/halimpl" />
         <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
