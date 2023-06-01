@@ -24,6 +24,9 @@
         <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
         <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="cl-404lab" revision="tokui" />
         
+        <remove-project name="platform/bootable/recovery" />
+        <project path="bootable/recovery" name="android_bootable_recovery" remote="cl-404lab" revision="tokui" />
+        
         <!-- Hals -->
         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
