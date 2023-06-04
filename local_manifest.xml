@@ -43,6 +43,8 @@
         <remove-project name="android_device_404_sepolicy" />
         <remove-project name="android_vendor_overlays_404" />
         <remove-project name="platform/frameworks/opt/telephony" />
+        <remove-project name="android_frameworks_av" />
+        
         
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="tokui" />
         <project path="frameworks/base" name="android_frameworks_base" remote="cl-404lab" revision="tokui" />
@@ -73,6 +75,7 @@
         <remove-project name="proprietary_vendor_qcom_common" />
         <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="cl-404lab" revision="tokui" />
         <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="github" revision="topaz" />
+        <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="tokui" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
