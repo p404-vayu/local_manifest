@@ -21,8 +21,10 @@
         <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="github" revision="arrow-12.0" />
       
         <!-- packages repos -->
-        <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
         <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="cl-404lab" revision="tokui" />
+        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="tokui" />
+        
+        
         
         <remove-project name="platform/bootable/recovery" />
         <project path="bootable/recovery" name="android_bootable_recovery" remote="cl-404lab" revision="tokui" />
