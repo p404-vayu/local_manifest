@@ -72,10 +72,6 @@
         <project path="vendor/overlays/404" name="android_vendor_overlays_404" remote="cl-404lab" revision="tokui" />
         <remove-project name="android_packages_apps_404Launcher" />
         <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
-        <remove-project name="android_external_wpa-supplicant-8" />
-        <project path="external/wpa_supplicant_8" name="wpa" remote="cl-404lab" revision="tokui" />
-        <remove-project name="proprietary_vendor_qcom_common" />
-        <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="cl-404lab" revision="tokui" />
         <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="github" revision="topaz" />
         <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="tokui" />
 
