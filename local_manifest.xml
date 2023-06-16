@@ -11,70 +11,18 @@
         <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="tokui-mochi" remote="cl-404lab" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
-        <!--<project path="vendor/xiaomi/miuicam" name="vendor_miuicam" revision="master" remote="haroxd10" /> -->
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="micam-gitlab" revision="13.0-miuicamera" />
+        <!--<project path="vendor/xiaomi/miuicam" name="vendor_miuicam" revision="master" remote="haroxd10" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="micam-gitlab" revision="13.0-miuicamera" />  -->
 
         <remove-project name="platform/vendor/nxp/opensource/halimpl" />
         <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
         
         <!-- device settings -->
         <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="github" revision="arrow-12.0" />
-      
-        <!-- packages repos -->
-        <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="cl-404lab" revision="tokui" />
-        <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="cl-404lab" revision="tokui" />
-        
-        
-        
-        <remove-project name="platform/bootable/recovery" />
-        <project path="bootable/recovery" name="android_bootable_recovery" remote="cl-404lab" revision="tokui" />
-        
+
         <!-- Hals -->
         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
         <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-855" />
-
-        <!-- replacements -->
-        <remove-project name="android_frameworks_base" />
-        <remove-project name="android_packages_apps_Settings" />
-        <!--<remove-project name="android_build" />-->
-        <remove-project name="android_build_soong" />
-        <!--<remove-project name="platform/packages/modules/Permission" />-->
-        <remove-project name="android_vendor_404" />
-        <remove-project name="android_device_404_sepolicy" />
-        <remove-project name="android_vendor_overlays_404" />
-        <remove-project name="platform/frameworks/opt/telephony" />
-        <remove-project name="android_frameworks_av" />
-        
-        
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cl-404lab" revision="tokui" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="cl-404lab" revision="tokui" />
-         <!--<project path="build/make" name="android_build" remote="cl-404lab" revision="tokui" >
-                <copyfile src="core/root.mk" dest="Makefile" />
-                <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-                <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-                <linkfile src="core" dest="build/core" />
-                <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-                <linkfile src="target" dest="build/target" />
-                <linkfile src="tools" dest="build/tools" />
-        </project>
-       <project path="system/core" name="android_system_core" remote="cl-404lab" revision="tokui" />
-        -->
-        <project path="build/soong" name="android_build_soong" remote="cl-404lab" revision="tokui" >
-                <linkfile src="root.bp" dest="Android.bp" />
-                <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-        </project>
-        <project path="vendor/404" name="android_vendor_404" remote="cl-404lab" revision="tokui" />
-        <!--<project path="packages/modules/Permission" name="P-404/android_packages_modules_Permission" remote="github" revision="tokui" />
-        -->
-        <project path="device/404/sepolicy" name="android_device_404_sepolicy" remote="cl-404lab" revision="tokui" />
-        <project path="vendor/overlays/404" name="android_vendor_overlays_404" remote="cl-404lab" revision="tokui" />
-        <remove-project name="android_packages_apps_404Launcher" />
-        <project path="packages/apps/404Launcher" name="android_packages_apps_404Launcher" remote="cl-404lab" revision="tokui" />
-        <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="github" revision="topaz" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="cl-404lab" revision="tokui" />
-
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 </manifest>
