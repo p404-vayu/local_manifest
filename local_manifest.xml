@@ -8,7 +8,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="tokui" remote="cl-404lab" />	
-        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="tokui-mochi" remote="cl-404lab" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="tokui" remote="cl-404lab" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="tokui" remote="cl-404lab" />
         <!--<project path="vendor/xiaomi/miuicam" name="vendor_miuicam" revision="master" remote="haroxd10" />
@@ -21,8 +21,8 @@
         <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="github" revision="arrow-12.0" />
 
         <!-- Hals -->
-        <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="cl-404lab" revision="arrow-12.1-caf-sm8150" />
+        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="topaz-855" />
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="topaz-855" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="topaz-855" />
         <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-855" />
 </manifest>
